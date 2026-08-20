@@ -1,7 +1,7 @@
 # MachineFabric
 
-MachineFabric is a local-first AI and document transmutation system for
-macOS. You give it files, folders, or mixed inputs, and it discovers
+MachineFabric is a local-first AI and document transmutation system for macOS,
+Linux, and Windows. You give it files, folders, or mixed inputs, and it discovers
 what can be done with them through composable capabilities called
 cartridges.
 
@@ -21,18 +21,18 @@ separate apps.
 
 ## What MachineFabric Includes
 
-- A macOS desktop app
+- Native macOS and Linux/Windows desktop clients over the same engine
 - A growing cartridge ecosystem for formats, AI, and automation
-- Curated local model sets for different Macs and workflows
+- Curated local model sets for different hardware profiles and workflows
 - A capability and media registry that describes what the system can do
 
 ## Public Registries
 
 - Main website: https://machinefabric.com
 - Models registry: https://models.machinefabric.com/manifest
-- Capabilities and media registry: https://fabric.capdag.com/manifest
+- Capabilities and media registry: https://fabric.capdag.com/manifest/latest.json
 - Cap registry explorer: https://capdag.com
-- Cartridge registry: https://cartridges.machinefabric.com/manifest
+- Cartridge registry: https://cartridges.machinefabric.com/v1/manifest
 
 ## Community and Feedback
 
