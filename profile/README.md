@@ -1,60 +1,36 @@
 # MachineFabric
 
-MachineFabric is a local-first AI and document transmutation system for macOS,
-Linux, and Windows. You give it files, folders, or mixed inputs, and it discovers
-what can be done with them through composable capabilities called
-cartridges.
+An operating system asks which app should open a file. MachineFabric asks what you want the
+file to become, and makes it on your own machine, with your own models.
 
-The goal is simple: make local AI, document workflows, and file
-transformations feel like one coherent system instead of a pile of
-separate apps.
+### [FabricLoom](https://machinefabric.com/fabricloom/) · coming soon
 
-## Start Here
+Turn the files you have into what you need: summaries, transcripts, spreadsheets, searchable
+text. A desktop app for macOS, Windows and Linux that runs your own models locally and needs no
+account.
 
-- Website: https://machinefabric.com
-- Downloads: https://machinefabric.com/downloads
-- Documentation: https://machinefabric.com/docs
-- Models: https://machinefabric.com/models
-- Cartridges: https://machinefabric.com/cartridges
-- Blog: https://machinefabric.com/blog
-- Whitepaper: https://machinefabric.com/assets/whitepaper.pdf
+### [CapDAG](https://machinefabric.com/capdag/) · [capdag-rs](https://github.com/machinefabric/capdag-rs)
 
-## What MachineFabric Includes
+Say what you want done to a file. CapDAG finds the capabilities that do it and wires them into a
+machine. Capabilities are named by URNs, provided by cartridges, and planned and run by one
+protocol in every implementation. The specification and the registry are open; the command line
+is coming soon.
 
-- Native macOS and Linux/Windows desktop clients over the same engine
-- A growing cartridge ecosystem for formats, AI, and automation
-- Curated local model sets for different hardware profiles and workflows
-- A capability and media registry that describes what the system can do
+### [lungo](https://machinefabric.com/lungo/) · [lungo-rs](https://github.com/machinefabric/lungo-rs) · [Discord](https://discord.gg/D5w5ckFKrv)
 
-## Public Registries
+Generate Rust, C, Go, Python, Swift and TypeScript from ordinary Lake projects. Lean checks and
+compiles the program; lungo runs it on one runtime behind an idiomatic API in each language.
 
-- Main website: https://machinefabric.com
-- Models registry: https://models.machinefabric.com/manifest
-- Capabilities and media registry: https://fabric.capdag.com/manifest/latest.json
-- Cap registry explorer: https://capdag.com
-- Cartridge registry: https://cartridges.machinefabric.com/v1/manifest
+### [QuickRust](https://machinefabric.com/quickrust/) · [quickrust](https://github.com/machinefabric/quickrust) · [Discord](https://discord.gg/Q7ga2graWW)
 
-## Community and Feedback
+A drop-in replacement for `cargo` that makes Rust builds faster, with nothing to configure. Every
+build goes into one centrally managed cache that gives disk space back on its own, and QuickRust
+can tell you where the time went.
 
-- Email: hello@machinefabric.com
-- Discord: https://discord.gg/utwdVm6tYB
-- GitHub organization: https://github.com/machinefabric
+---
 
-## Contribute
+[Discord](https://discord.gg/utwdVm6tYB) · [Mastodon](https://mastodon.social/@machinefabric) · [hello@machinefabric.com](mailto:hello@machinefabric.com)
 
-- Submit a model set: https://github.com/machinefabric/modelsets/issues/new?template=add-model-set.yml
-- Feedback on model recommendations: https://github.com/machinefabric/modelsets/issues/new?template=feedback.yml
-- Add a capability or media definition: https://github.com/machinefabric/capfab/issues/new?template=add-definition.yml
-- Feedback on definitions: https://github.com/machinefabric/capfab/issues/new?template=feedback-on-definitions.yml
-- Submit a cartridge: https://github.com/machinefabric/cartridge-shelf/issues/new?template=add-cartridge.yml
-- Cartridge bug, feature, or vulnerability reports: https://github.com/machinefabric/cartridge-shelf/issues/new/choose
-
-## Related Projects
-
-This repository is the MachineFabric super-repo. It brings together the
-app, engine, registries, website, cartridges, SDKs, and public
-submission inboxes that make up the broader project.
-
-For most people, the best entry point is the website:
-
-https://machinefabric.com
+Contribute a [model set](https://github.com/machinefabric/modelsets/issues/new/choose), a
+[capability definition](https://github.com/machinefabric/capfab/issues/new/choose) or a
+[cartridge](https://github.com/machinefabric/cartridge-shelf/issues/new/choose).
